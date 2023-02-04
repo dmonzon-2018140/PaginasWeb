@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: monospace;
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-color: rgb(128, 74, 12);
+}
+
+.header h1{
+    font-size: 18px;
+    margin-top: 14px;
+    color: rgb(247, 240, 240);
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about{
+    padding: 10px;
+}
+
+.about h3{
+    color: #2838c4;
+    font-size: 16px;
+}
+
+.about p{
+    color: #521599;
+    font-size: 14px;
+}
+
+.describe{
+    float: right;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(33, 170, 102);
+}
+
+.describe h4{
+    color: #660f69;
+    font-size: 16px;
+}
+
+.describe li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #637916;
+}

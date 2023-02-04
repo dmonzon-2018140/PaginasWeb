@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/distinguido.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+}
+
+.destacados{
+    width: 320px;
+    height: 420px;
+    background: rgb(160, 25, 88);
+    color: rgb(129, 153, 20);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.mejor{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: calc(50% - 50px);
+}
+
+.destacados h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.destacados table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1d57c2;
+    color: rgb(125, 12, 129);
+}
+
+.destacados table td{
+    border: 1px solid rgb(190, 167, 31);
+    padding: 8px;
+}
+
+tr:nth-of-type(1){
+    background-color: rgb(57, 13, 94);
+}
